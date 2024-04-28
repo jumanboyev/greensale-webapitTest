@@ -5,9 +5,21 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88964B3D-A009-4CB4-B50D-44FFF5DE22FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenSaleTest.WebApi", "src\GreenSaleTest.WebApi\GreenSaleTest.WebApi.csproj", "{FF61F573-5A68-45F6-8585-6E6E1B92CE9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenSaleTest.WebApi", "src\GreenSaleTest.WebApi\GreenSaleTest.WebApi.csproj", "{FF61F573-5A68-45F6-8585-6E6E1B92CE9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenSaleTest.Domain", "src\GreenSaleTest.Domain\GreenSaleTest.Domain.csproj", "{933BC028-E037-46B4-B0DF-1C247BC38A46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenSaleTest.Domain", "src\GreenSaleTest.Domain\GreenSaleTest.Domain.csproj", "{933BC028-E037-46B4-B0DF-1C247BC38A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenSAleTest.DataAccess", "src\GreenSAleTest.DataAccess\GreenSAleTest.DataAccess.csproj", "{A7CC16AD-50AC-4092-8933-5EEB73B87719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenSaleTest.Service", "src\GreenSaleTest.Service\GreenSaleTest.Service.csproj", "{F3DEEB5F-8AFC-41F8-BE6B-7BAE162ADC7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenSaleTest.Application", "src\GreenSaleTest.Application\GreenSaleTest.Application.csproj", "{929D8186-0D9F-4DA4-B339-92BC5D941E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenSaleTest.Persistence", "src\GreenSaleTest.Persistence\GreenSaleTest.Persistence.csproj", "{F719A799-6316-49B7-8C5D-12A801B55890}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8393BD3B-563C-4ABB-B2CC-9B43576D3B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenSaleTest.UnitTest", "test\GreenSaleTest.UnitTest\GreenSaleTest.UnitTest.csproj", "{383F77BE-DB63-4790-AB4E-C14565FFFD80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +35,26 @@ Global
 		{933BC028-E037-46B4-B0DF-1C247BC38A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933BC028-E037-46B4-B0DF-1C247BC38A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{933BC028-E037-46B4-B0DF-1C247BC38A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CC16AD-50AC-4092-8933-5EEB73B87719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CC16AD-50AC-4092-8933-5EEB73B87719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CC16AD-50AC-4092-8933-5EEB73B87719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CC16AD-50AC-4092-8933-5EEB73B87719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DEEB5F-8AFC-41F8-BE6B-7BAE162ADC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DEEB5F-8AFC-41F8-BE6B-7BAE162ADC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DEEB5F-8AFC-41F8-BE6B-7BAE162ADC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DEEB5F-8AFC-41F8-BE6B-7BAE162ADC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929D8186-0D9F-4DA4-B339-92BC5D941E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929D8186-0D9F-4DA4-B339-92BC5D941E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929D8186-0D9F-4DA4-B339-92BC5D941E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929D8186-0D9F-4DA4-B339-92BC5D941E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F719A799-6316-49B7-8C5D-12A801B55890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F719A799-6316-49B7-8C5D-12A801B55890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F719A799-6316-49B7-8C5D-12A801B55890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F719A799-6316-49B7-8C5D-12A801B55890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383F77BE-DB63-4790-AB4E-C14565FFFD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383F77BE-DB63-4790-AB4E-C14565FFFD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383F77BE-DB63-4790-AB4E-C14565FFFD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383F77BE-DB63-4790-AB4E-C14565FFFD80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +62,11 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FF61F573-5A68-45F6-8585-6E6E1B92CE9E} = {88964B3D-A009-4CB4-B50D-44FFF5DE22FC}
 		{933BC028-E037-46B4-B0DF-1C247BC38A46} = {88964B3D-A009-4CB4-B50D-44FFF5DE22FC}
+		{A7CC16AD-50AC-4092-8933-5EEB73B87719} = {88964B3D-A009-4CB4-B50D-44FFF5DE22FC}
+		{F3DEEB5F-8AFC-41F8-BE6B-7BAE162ADC7A} = {88964B3D-A009-4CB4-B50D-44FFF5DE22FC}
+		{929D8186-0D9F-4DA4-B339-92BC5D941E01} = {88964B3D-A009-4CB4-B50D-44FFF5DE22FC}
+		{F719A799-6316-49B7-8C5D-12A801B55890} = {88964B3D-A009-4CB4-B50D-44FFF5DE22FC}
+		{383F77BE-DB63-4790-AB4E-C14565FFFD80} = {8393BD3B-563C-4ABB-B2CC-9B43576D3B4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {740AF472-D6B6-4E62-A2BF-EF28433BE428}
